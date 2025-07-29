@@ -23,7 +23,7 @@ router.get(
     console.log("SESSION USER:", req.session.user);
     res.redirect("/");
   }
-);
+);// dòng này có sửa, hết rồi sửa mỗi code file này
 
 
 
